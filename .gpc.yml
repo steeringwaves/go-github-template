@@ -1,0 +1,15 @@
+templates:
+  - README.md
+variables:
+  - name: name
+    description: Name of the project
+    default: my-project
+  - name: description
+    description: Description of the project
+    default: My project
+  - name: server
+    description: Server the repo is hosted on
+    default: github.com
+  - name: org
+    description: License of the project
+    default: steeringwaves
